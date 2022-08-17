@@ -1,0 +1,11 @@
+{
+    "site":"https://app.pontomaisweb.com.br/#/acessar",
+    "login":"###",
+    "password":"###",
+    "notification_url":"https://maker.ifttt.com/trigger/{}/with/key/###",
+    "notification_event":"###",
+    "call_event":"###",
+    "latitude":"###",
+    "longitude":"###",
+    "accuracy":0
+}
