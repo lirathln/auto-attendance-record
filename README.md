@@ -46,7 +46,7 @@ Após baixar o projeto, você pode abrí-lo com o [Visual Studio Code](https://c
 
 * Faça a importação dos requerimentos, que constam no projeto como 'requirements.txt';  
 
-        pip install -r /path/to/requirements.tx
+        pip install -r /path/auto-attendance-record/requirements.txt
 
 * Crie suas [credenciais no Google Workspace](https://developers.google.com/workspace/guides/create-credentials), para obter sua ID e SECRET e altere-as no arquivo 'credentials_google.json';
 
