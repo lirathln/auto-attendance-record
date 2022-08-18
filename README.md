@@ -2,12 +2,12 @@
 Automation created to register attendance on the Pontomais website.
 ![logo da aplicação](https://uploaddeimagens.com.br/images/003/986/262/original/Automação.jpg?1660848656)
 
-<center>
+<div align="center">
 
 | [Descrição](#descrição) | [Funcionalidades](#funcionalidades) | [Executar Projeto](#executar-projeto) | [Tecnologias Utilizadas](#tecnologias-utilizadas) | [Autor](#autor) |
 |:-----------:|:-----------------:|:------------------:|:------------------------:|:-------:|
 
-</center>
+</div>
 <br/><br/>
 
 ## Descrição
@@ -21,8 +21,8 @@ A implementação ocorreu em uma versão anterior do sistema, portanto, poderá 
 
 ## Funcionalidades
 - **`Verificação de Google Calendar`**: Verificação do calendário pessoal do usuário, através de liberação ao [Google Calendar](https://calendar.google.com/calendar/), buscando por evento nomeado 'Trabalho'. Esse evento deverá conter o horário para registro dos ponto na descrição do evento, por exemplo: 
-    
-        :clock3: 08:00;12:00;14:00;18:00
+
+    :clock3: 08:00;12:00;14:00;18:00
 
     **Obs.:** Os horários deverão ser separados por ponto e vírgula (;), para que o código consiga separar os dados.
 
