@@ -16,7 +16,7 @@ def create_browser():
     browser_options = Options()
     browser_options.add_argument("--disable-extensions")
     browser_options.add_argument("--headless")
-    browser_options.add_experimental_option('prefs', {'geolocation': True})
+    #browser_options.add_experimental_option('prefs', {'geolocation': True}) # faz uso da latitude e longitude em app_data.json
     logging.info('Criando browser.')
 
     return webdriver.Chrome(executable_path="C:\dev\chromedriver", options=browser_options)
@@ -122,7 +122,6 @@ def main():
     except Exception as e:
         logging.critical('Erro crítico ocorrido: {}'.format(e))
         send_notification('Erro crítico', e)
-
 
 
 if __name__ == '__main__':
